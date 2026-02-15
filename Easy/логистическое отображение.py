@@ -15,12 +15,9 @@ def variant_map(r, x):
     return r * x * (1 - x) * (2 - x)
 
 n = 20
-# x_zero = 0.2
-# x_zero = choice([i for i in arange(0.1, 1, 0.1)]).round(1)
-# r_list = [0.8, 1.2, 1.7, 2.0, 2.3, 2.5]
 
 x_zero = 0.2
-r_list = [0.7, 1, 1.6, 2, 2.4, 3.3]
+r_list = [0.5, 1.0, 1.5, 2.0, 2.3, 2.5]
 fig, axes = plt.subplots(2, 3, figsize=(15, 10))
 axes = axes.flatten()
 

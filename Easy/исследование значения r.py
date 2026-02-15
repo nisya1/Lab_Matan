@@ -1,9 +1,7 @@
 import matplotlib
-from numpy import arange
 
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-from random import choice
 
 
 def logshow(r, x):
@@ -34,4 +32,3 @@ plt.suptitle(f'Логистическое отображение значени�
 plt.tight_layout()
 plt.savefig('graf1.png', dpi=300)
 plt.show()
-

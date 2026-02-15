@@ -17,10 +17,10 @@ def variant_map(r, x):
 n = 50
 # x_zero = 0.2
 # x_zero = choice([i for i in arange(0.1, 1, 0.1)]).round(1)
-# r_list = [0.8, 1.2, 1.7, 2.0, 2.3, 2.5]
+r_list = [0.8, 1.2, 1.7, 2.0, 2.3, 2.5]
 
 x_zero = 0.4
-r_list = [0.1, 0.4, 0.5, 1.2, 2.4, 3.2]
+# r_list = [1.1, 1.5, 2.0, 2.3, 2.7, 3.0]
 fig, axes = plt.subplots(2, 3, figsize=(15, 10))
 axes = axes.flatten()
 

@@ -11,7 +11,7 @@ def variant_map(r, x):
 
 
 def plot_lamerey_grid():
-    r_values = [2.0, 3.2, 3.5, 3.55, 3.565, 3.7]
+    r_values = [0.8, 1.2, 1.7, 2.0, 2.3, 2.5]
     x0 = 0.4
 
     fig, axes = plt.subplots(2, 3, figsize=(15, 10))
